@@ -23,6 +23,8 @@ public class SetAllArrayElements {
      * @return nothing, because of pass-by-reference, all changes will be reflected in the original array.
      */
     public void set(int[] arr, int n){
-
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = n;
+        }
     }
 }
